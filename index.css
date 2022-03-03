@@ -1,0 +1,145 @@
+body{
+  background-color:purple;
+ 
+}
+#main{
+width:50%;
+  background:rgb(105,105,105);
+  height:100%;
+  position:relative;
+  left:25%;
+  
+}
+
+#title{
+  color:white;
+  padding-top:20px;
+}
+
+#description{
+  color:white;
+  font-size:1.3rem;
+  font-style:italic;
+}
+
+.form-class{
+  color:white;
+  
+}
+
+#name-label{
+  color:white;
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:20px 20px 20px 40px;
+  font-style:normal;
+}
+#email-label{
+  color:white;
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:20px 0px 0px 40px;
+  font-style:normal;
+}
+#number-label{
+  color:white;
+  font-size:1.5rem;
+  font-weight:bold;
+  padding:20px 0px 0px 40px;
+  font-style:normal;
+}
+
+#select-label{
+  padding:20px 0px 0px 40px;
+  color:white;
+  font-weight:bold;
+  margin-top:10px;
+  font-size:1.2rem;
+}
+
+#name{
+  width:90%;
+  height:30px;
+  border-radius:5px;
+  position:relative;
+  left:40px;
+  padding-left:10px;
+  margin-top:10px;
+  font-size:1.2rem;
+  
+}
+#email{
+  width:90%;
+  height:30px;
+  border-radius:5px;
+  position:relative;
+  left:40px;
+  padding-left:10px;
+  margin-top:10px;
+  font-size:1.2rem;
+  
+}
+#number{
+  width:90%;
+  height:30px;
+  border-radius:5px;
+  position:relative;
+  left:40px;
+  padding-left:10px;
+  margin-top:10px;
+  font-size:1.2rem;
+  
+}
+#dropdown{
+  width:96%;
+  height:40px;
+  border-radius:5px;
+  margin-top:10px;
+  outline:hidden;
+  padding-left:10px;
+  font-size:1.1rem;
+  
+}
+
+#select-label-2{
+  width:96%;
+  height:40px;
+  border-radius:5px;
+  outline:hidden;
+  margin-top:25px;
+  padding-left:10px;
+  font-size:1.1rem;
+  
+}
+
+
+input:focus{
+  outline:none;
+  outline-style:hidden;
+}
+textarea:focus{
+  outline:none;
+  outline-style:hidden;
+}
+select:focus{
+  outline:none;
+  outline-style:hidden;
+}
+
+#survey-form-1{
+  margin-top:20px;
+}
+
+#textarea{
+  margin-top:10px;
+  width:90%;
+  height:100px;
+}
+
+#submit{
+  width:90%; 
+  background:green;
+  height:30px;
+  color:white;
+  font-size:10x;
+}
